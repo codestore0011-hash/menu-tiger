@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
 
     <style>
-        html, body {
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
             width: 100%;
             height: 100%;
-            background: #000;
             overflow: hidden;
+            background: #000;
         }
 
         img {
-            display: block;
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            display: block;
+            object-fit: cover;
+            object-position: center;
         }
     </style>
 </head>
 
 <body>
-    <img src="./menu.jpg" alt="Menu">
+    <img src="./menu.jpg" alt="">
 </body>
 </html>
